@@ -13,7 +13,7 @@ body{
 /* Hero section */
 
 .hero__section{
-	background-image: url('./Images/heroSectionBackground.png');
+	background-image: url('C:\Users\pc1\Desktop\zomato\zomato pics\heroSectionBackground.png');
 	height: 400px;
 	background-size: cover;
 	background-position: center;
@@ -31,7 +31,7 @@ body{
 }
 
 .navbar a{
-	color: white;
+	color: brown;
 }
 
 .navbar a:hover{
@@ -65,20 +65,21 @@ body{
 }
 
 .hero__section_logo{
+    color: brown;
 	height: 116px;
     width: 388px;
 }
 
 
 .hero__section_heading{
-	color: white;
+	color: rgb(13, 13, 13);
     word-spacing: 3px;
     font-size: 30px;
     font-weight: 380;
 }
 
 .hero__section_container_input{
-	background: white;
+	background: rgb(213, 25, 25);
 	border-radius: 10px;
 	width: 45%;
 	padding: 7px;
@@ -238,8 +239,8 @@ body{
 }
 
 .sub_heading__container span[id=span]:hover{
-	text-decoration: underline red;
-	color: red;
+	text-decoration: underline rgb(140, 140, 217);
+	color: rgb(142, 187, 230);
 }
 
 .collections__cards_container{
@@ -262,24 +263,25 @@ body{
 
 .cards:hover{
 	transform: scale(1.01);
-	box-shadow: 0 0 15px 5px #A0A0A0;
+	box-shadow: 0 0 15px 5px rgb(74, 189, 231);
 	cursor: pointer;
 } 
 
 .card1{
-	background-image: url('./Images/collection1.jpg');
+	background-image: url("C:\Users\pc1\Desktop\zomato\zomato pics\collection1.jpg") repeat 0 0;
+    
 }
 
 .card2{
-	background-image: url('./Images/collection2.jpg');
+	background-image: url('C:\Users\pc1\Desktop\zomato\zomato pics\collection2.jpg');
 }
 
 .card3{
-	background-image: url('./Images/collection3.jpg');
+	background-image: url('C:\Users\pc1\Desktop\zomato\zomato pics\collection3.jpg');
 }
 
 .card4{
-	background-image: url('./Images/collection4.jpg');
+	background-image: url('C:\Users\pc1\Desktop\zomato\zomato pics\collection4.jpg');
 }
 
 .overlay{
@@ -289,7 +291,7 @@ body{
 	top: 0;
 	left: 0;
 	border-radius: 10px;
-	background: linear-gradient(0deg, rgba(80,80,80,0.8)0%, rgba(0,0,0,0)50%, rgba(0,0,0,0)100%);
+	background: linear-gradient(0deg, rgba(135, 170, 216, 0.8)0%, rgba(119, 101, 201, 0)50%, rgba(128, 147, 226, 0)100%);
 	z-index: 5;
 }
 
@@ -297,7 +299,7 @@ body{
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	color: white;
+	color: rgb(10, 10, 10);
 	padding-left: 8px;
 	padding-bottom: 12px;
 	font-size: 0.9rem;
@@ -310,7 +312,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: rgb(255,251,247);
+	background: rgb(244, 237, 237);
 	width: 90%;
 	margin: 3rem auto;
 }
@@ -322,7 +324,7 @@ body{
 	gap: 1.5rem;
 	justify-content: center;
 	align-items: center;
-	background: white;
+	background: rgb(238, 229, 229);
 }
 
 .semi_container__left{
